@@ -10,7 +10,6 @@ var mod2 = document.getElementById("mod2");
 submit.addEventListener('click', printNum);
 let submit1 = false;
 
-
 function printNum(num){
     var num = parseInt(numeros.value);
     mod1 = parseInt(mod1.value);
@@ -41,14 +40,6 @@ function printNum(num){
             list[i].appendChild(node[i]);   
         }
         ul.appendChild(list[i]);
-        if (i == 100){
-            submit1 = true;
-            if (ul.hasChildNodes && submit) {
-                for(num of ul.childNodes) {
-                    console.log(num);
-                  ul.removeChild(ul.lastChild)
-                }
-            }
-        }
+       
     }
 }
