@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+h1 {
+    background-color: aqua;
+    display: inline;
+    position: relative;
+    top: 2rem;
+    left:50%;
+    border: 1px solid pink;
+    padding-bottom: 0.5%;
+}
+div#inputs {
+    background-color: lightskyblue;
+    display:inline;
+    position: fixed;
+    top: 5rem;
+    left: 30%;
+    border-radius:  5%;
+    width: 50%;
+    height: 50%;
+}
+p{
+    background: none;
+}
+input{
+    position:relative;
+    left:  45%;
+    width: 20%;
+    height: auto;
+}
+input#mod1, input#mod2{
+    position:static;
+    width: 8%;
+}
+input#submit{
+    position:relative;
+    left: 46%;
+    width: fit-content;
+    height: auto;
+}
